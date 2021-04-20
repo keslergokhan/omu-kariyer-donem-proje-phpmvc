@@ -1,0 +1,43 @@
+@media (max-width:990px) { 
+	.menu-container{
+		padding: 20px;
+	}
+	.navbar-menu-left li{
+		width: 100%;
+		height: 60px;
+		line-height: 40px;
+		border: none;
+		float: none;
+	}
+	.navbar-menu-left li a{
+		display: block;
+		text-decoration: none;
+		font-weight: 500;
+		color:#00000085;
+	}
+}
+
+@media (max-width:990px) { 
+
+	.carousel-control-prev-next > .carousel-control-prev,.carousel-control-prev-next > .carousel-control-next{
+		background: #2f2c7e;
+		margin-top: 500px;
+		height: 75px;
+		width: 75px;
+	}
+	.carousel-control-prev-next > .carousel-control-prev{
+		margin-left: 0px;
+	}
+	.carousel-control-prev-next > .carousel-control-next{
+		margin-right: 0px;
+	}
+}
+
+@media (max-width:990px){
+	.user-register-form-container{
+		padding-left: 10vw;
+		padding-right: 10vw;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}

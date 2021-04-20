@@ -1,0 +1,234 @@
+body{
+	overflow-x: hidden;
+}
+/*Menu*/
+.menu-container{
+	padding: 0px;
+}
+.navbar-nav a{
+	font-size: 15px;
+	border-left: solid 1px #0000000f;
+}
+.navbar-nav{
+	margin-left: 2vw;
+}
+.navbar-nav .nav-link{
+	padding-right: 2vw !important;
+}
+.navbar-brand img{
+	height: 50px;
+}
+.search-container-input{
+	background-image: url('../images/ondokuzmayis_universitesi_iha.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #2f2c7e;
+}
+.navbar-menu-left,.navbar-menu-right{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-left{
+	margin-left: 5vw;
+}
+.navbar-menu-left li{
+	float: left;
+	list-style-type: none;
+	border-left: solid 1px #00000017;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.navbar-menu-left li a{
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-decoration: none;
+	font-weight: 500;
+	color:#00000085;
+
+}
+.navbar-menu-right{
+	float: right !important;
+}
+/*Menu*/
+
+/*header*/
+
+.input-group-append{
+	background: #403e3e;
+}
+.input-group-append button{
+	color: white;
+}
+/*header*/
+
+/*carusel*/
+.box-shadow{
+	margin: auto;
+	width: 325px;
+	height: 400px;
+}
+
+/*carusel*/
+.carousel-control-prev-next > .carousel-control-prev,.carousel-control-prev-next > .carousel-control-next{
+	background: #2f2c7e;
+	margin-top: 170px;
+	height: 60px;
+	width: 60px;
+}
+.carousel-control-prev-next > .carousel-control-prev{
+	margin-left: 0px;
+}
+.carousel-control-prev-next > .carousel-control-next{
+	margin-right: 0px;
+}
+.carousel-control-prev-next-carusel1 > .carousel-control-next{
+	width: 40px;
+	background: #2f2c7e;
+}
+.carousel-control-prev-next-carusel1 > .carousel-control-prev{
+	width: 40px;
+	background: #2f2c7e;
+}
+/*Carusel*/
+
+
+/*Main Slogan*/
+.main-slogan-container::after{
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: -1;
+	height: 50px;
+	bottom: 0px;
+	width: 100%;
+	background: #b22238;
+}
+.main-slogan-container{
+	position: relative;	
+	min-height: 250px;
+	width: 100%;
+	background: #2f2c7e;
+	z-index: 1;
+}
+.main-slogan-title h3{
+	color: white !important;
+	font-size: 30px;
+	line-height: 40px;
+	display: block;
+}
+.main-slogan-title{
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.main-slogan-title span{
+	color: white;
+	font-weight: bold;
+}
+
+.main-slogan-img img{
+	height: 250px;
+	margin: auto;
+}
+
+/*Main Slogan*/
+
+footer{
+	margin-top: 50px;
+	border-top: solid 2px #b22238;
+}
+
+
+
+/*Kullanıcı kayıt*/
+.user-register-form-body{
+	padding-left: 25vw;
+	padding-right: 25vw;
+	padding-top: 50px;
+}
+.user-register-form-container{
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	border-radius: 10px;
+}
+
+.user-register-form{
+	margin: auto;
+}
+
+/*Kullanıcı kayıt*/
+
+
+
+
+
+
+/*---*/
+.text-color-red{
+	color: #b32439 !important;
+}
+.thme-header-bc{
+	height: 250px;
+	width: 100vw;
+	margin: auto;
+	background-image: url('../images/omu-kariyer-kullanici-kayit.png');
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	position: relative;
+	filter: grayscale(100%);
+	transition: 0.5s;
+}
+.thme-header-bc:hover{
+	filter: grayscale(0%);
+}
+.page-route-ctn{
+	position: absolute;
+	bottom: 0px;
+	padding-right: 20px;
+	color: white;
+}
+.title h1,h2,h3,h4,h5,h5{
+	display: inline-block;
+	color: #b32439 !important;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: solid 2px #2f2c7e;
+}
+.btn-color-red{
+	color: white;
+	background-color: #b32439 !important;
+	border-color: #b32439 !important;
+}
+.btn-color-blue{
+	color:white;
+	background-color: #2f2c7e !important;
+	border-color: #2f2c7e !important;
+}
+.btn-bac-red{
+	background: #b32439 !important;
+}
+.btn-bac-blue{
+	background: #2f2c7e !important;
+}
+.ul-list{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+.ul-list li{
+	padding-right: 10px;
+	padding-left: 10px;
+	list-style-type: none;
+}
+.ul-list li a{
+	font-size: 14px;
+	text-decoration: none;
+	color : #6c757d;
+}
